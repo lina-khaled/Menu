@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/camID" android:title="Camera" android:icon="@drawable/ic_cam" app:showAsAction="ifRoom" android:orderInCategory="3"/>
+    <item android:id="@+id/homeID" android:title="Home" android:icon="@drawable/ic_home" app:showAsAction="always"/>
+    <item android:id="@+id/backSpaceID" android:title="back space" android:icon="@drawable/ic_backspace" app:showAsAction="ifRoom" android:orderInCategory="4" />
+    <item android:id="@+id/settingsID" android:title="Settings" />
+</menu>
